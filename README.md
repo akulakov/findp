@@ -25,6 +25,9 @@ In [9]: l=RecordP.objects.all()
 In [10]: l
 Out[10]: <QuerySet [<RecordP: learnpython pattern=p count=816>, <RecordP: learnpython pattern=h count=1476>, <RecordP: learnpython pattern=how count=43>, <RecordP: learnpython pattern=can count=40>, <RecordP: learnpython pattern=what count=72>, <RecordP: learnpython pattern=what count=225>]>
 
+Testing
+---
+
 To run tests:
  - run manage.py tests
 
