@@ -4,6 +4,7 @@ Find and count letter 'p' (or other patterns) on Subreddits.
 
 To use:
 
+ - pip install -r requirements.txt
  - set the following environment vars: `SECRET_KEY`, `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`.
  - run manage.py migrations
  - run `manage.py count_p <subreddit> <pat> <limit>`
