@@ -31,3 +31,8 @@ Testing
 To run tests:
  - run manage.py tests
 
+Implementation Notes
+---
+Submission sorting order used is reddit's 'hot' sorting, but code could be changed (or an
+argument added to management command class) to use other sorting methods listed in PRAW docs:
+`https://praw.readthedocs.io/en/latest/getting_started/quick_start.html`
