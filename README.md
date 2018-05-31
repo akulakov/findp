@@ -18,6 +18,8 @@ RecordP
 RecordP model is used to record pattern count and details for each run.
 Example RecordP records after a few runs:
 
+In [8]: from findp.models import RecordP
+
 In [9]: l=RecordP.objects.all()
 
 In [10]: l
